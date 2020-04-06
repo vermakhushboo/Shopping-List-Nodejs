@@ -5,11 +5,15 @@ app.set('view engine', 'ejs');
 
 app.use(express.static('public'));
 
-app.get('/', (req, res)=>{
-    res.render('hello.ejs');
-})
+// app.get('/', (req, res)=>{
+//     res.render('hello.ejs');
+// })
 
-app.get('/top', (req,res)=>{
+// app.get('/top', (req,res)=>{
+//     res.render('top.ejs');
+// })
+
+app.get('/', (req, res)=>{
     res.render('top.ejs');
 })
 
