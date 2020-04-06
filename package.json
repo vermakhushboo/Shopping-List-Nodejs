@@ -6,7 +6,7 @@
     "scripts": {
       "start": "nodemon -r './.module' ./app.js"
     },
-    "author": "Progate",
+    "author": "Khushboo",
     "license": "ISC",
     "dependencies": {
       "ejs": "^2.6.1",
